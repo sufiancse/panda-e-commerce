@@ -1,8 +1,23 @@
 
+*{
+    box-sizing: border-box;
+}
+
 .width-margin{
     max-width: 1280px;
     margin: auto;
 }
+.panda-btn{
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 16px 28px;
+    background-color: #FF136F;
+    font-size: 16px;
+}
+
+
 /* navbar */
 nav{
     display: flex;
@@ -38,4 +53,39 @@ nav{
     font-size: 16px;
     font-weight: bold;
     color: #707070;
+}
+
+
+
+/* banner */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FEEAE9;
+    border-radius: 10px;
+    margin: 63px auto;
+    padding: 68px 46px;
+}
+.banner h1{
+    color: #1F1F1F;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.banner p{
+    color: #4E4E4E;
+    width: 456px;
+}
+.banner-price{
+    font-size: 52px;
+    font-weight: bold;
+    color: #FF136F;
+    display: inline-block;
+}
+
+.banner img{
+    width: 402px;
+    height: 378px;
 }
