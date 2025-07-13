@@ -1,0 +1,41 @@
+
+.width-margin{
+    max-width: 1280px;
+    margin: auto;
+}
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-bar{
+ position: relative;
+}
+.search-bar input{
+    padding: 12px 28px;
+    border: none;
+    background-color: #F1F1F1;
+    border-radius: 66px;
+    width: 500px;
+    
+}
+.search-bar i{
+    position: absolute;
+    top: 12px;
+    right: 13px;
+    color: #BABABA;
+}
+.item-list{
+    display: flex;
+    gap: 24px;
+}
+.item-list li{
+    list-style: none;
+}
+.item-list li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #707070;
+}
